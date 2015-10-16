@@ -6,15 +6,27 @@
 
 html {
 	box-sizing: border-box;
-
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    margin:0;
-    padding: 0;
+    font-family: sans-serif;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.gutter {
+    padding-left: 1.5rem;
+    padding-right: 1.5rme;
+}
+
+.img-flex {
+    width: 100%;
+    display:block;
 }
